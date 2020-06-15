@@ -15,7 +15,7 @@ Vue.use(VueRouter)
     component: () => import( '../views/List.vue')
   },
   {
-      path: '/task:id',
+      path: '/task/:id',
       name: 'task',
       component: () => import( '../views/Task.vue')
   }
