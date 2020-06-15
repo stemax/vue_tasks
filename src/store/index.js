@@ -18,6 +18,7 @@ export default new Vuex.Store({
       commit('createTask', task)
     }
   },
-  modules: {
+  getters: {
+    tasks: store => store.tasks
   }
 })
